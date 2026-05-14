@@ -7,7 +7,9 @@ width: 200px;
 padding: 8px;
 font-size: 18px;
 margin-bottom:1rem;
-transform:translateX(570px);
+margin-left: auto;
+margin-right:auto;
+display:flex;
 }
 .titlestyle{
 background: rgba(255, 255, 255, 0.2);
