@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Take a quiz!</title>
+</head>
+<style>
+#quiz{
+    margin:0 auto;
+    max-width: 340px;
+    width: 1000px;
+  height: 360px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 20px 10px rgba(255, 255, 255, 1);
+  position: relative;
+  overflow: hidden;
+  padding:22px;
+  margin-top:12px;
+}
+#question{
+    margin-bottom:15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color:white;
+    font-size:18px;
+}
+button {
+  display: flexbox;
+  margin: 4px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color:white;
+}
+</style>
+<body>
+    <div class="bar">
+  <ul>
+   <li><a style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:24px;" href="index.html">Home</a></li>
+   <li><a style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:24px;" href="random.html">Random country</a></li>
+   <li><a style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:24px;" href="quiz.html">Take a quiz!</a></li>
+   <li><a style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:24px;" href="compare.html">Compare two countries</a></li>
+  </ul>
+  </div>
+    <div id="quiz">
+    <h1 style="text-align:center; color:white; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">Geography quiz</h1>
+    <div id="question"></div>
+    <div id="options"></div>
+    <button id="submit">Submit</button>
+  </div>
+<script>
+const quizData = [
+    {
+      question: "What is the capital of Austria?",
+      options: ["Paris", "Madrid", "Rome", "Vienna"],
+      answer: "Vienna"
+    },
+    {
+      question: "What is the currency of Mexico?",
+      options: ["Dollar", "Peso", "Euro", "Rupee"],
+      answer: "Peso"
+    },
+    {
+      question: "What is the world's tallest building?",
+      options: ["Tower of Pisa", "CNN Tower", "Empire State", "Burj Khalifa"],
+      answer: "Burj Khalifa"
+    },
+    {
+      question: "Where is zero island located?",
+      options: ["Mediterranean Sea", "Gulf of Guinea", "Pacific Ocean", "Caribbean Sea"],
+      answer: "Gulf of Guinea"
+    },
+    {
+      question: "What's a point of inaccesibility?",
+      options: ["Somewhere impossible to reach", "A cursed point", "Somewhere that's the farthest from the ocean", "A joke, there's no such thing"],
+      answer: "Somewhere that's the farthest from the ocean"
+    },
+    {
+      question: "Which of the following is a European microstate?",
+      options: ["Mongolia", "New Zealand", "San Marino", "Panama"],
+      answer: "San Marino"
+    },
+    {
+      question: "What's the North Pole?",
+      options: ["The place were Santa lives", "The northernmost place on Earth", "A polar bear sanctuary", "A building"],
+      answer: "The northernmost place on Earth"
+    },
+  ];
+  
+  const questionElement = document.getElementById("question");
+  const optionsElement = document.getElementById("options");
+  const submitButton = document.getElementById("submit");
+  
+  let currentQuestion = 0;
+  let score = 0;
+  
+  function showQuestion() {
+    const question = quizData[currentQuestion];
+    questionElement.innerText = question.question;
+  
+    optionsElement.innerHTML = "";
+    question.options.forEach(option => {
+      const button = document.createElement("button");
+      button.innerText = option;
+      optionsElement.appendChild(button);
+      button.addEventListener("click", selectAnswer);
+    });
+  }
+  
+  function selectAnswer(e) {
+    const selectedButton = e.target;
+    const answer = quizData[currentQuestion].answer;
+  
+    if (selectedButton.innerText === answer) {
+      score++;
+    }
+  
+    currentQuestion++;
+  
+    if (currentQuestion < quizData.length) {
+      showQuestion();
+    } else {
+      showResult();
+    }
+  }
+  
+  function showResult() {
+    quiz.innerHTML = `
+      <h1 style="color:white; font-family:'sans-serif'">Quiz Completed!</h1>
+      <p style="color:white;">Your score: ${score}/${quizData.length}</p>
+    `;
+  }
+  
+  showQuestion();
+</script>
+</body>
+</html>
