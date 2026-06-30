@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/images/basic-rgb-atlas-god-vector.jpg">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2026.6.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2026.6.1/core.js"></script>
+    <link rel="icon" type="image/x-icon" href="/images/basic-rgb-atlas-god-vector.jpg">
+    <title>Find the distance between two points</title>
+</head>
+<style>
+  label {
+    display: block;
+    margin-top: 12px;
+    margin-left:12px;
+    font-size: 14px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif}
+  input {
+    width: 50%;
+    padding: 6px;
+    margin-top: 4px;
+    margin-left:12px;
+    box-sizing: border-box; }
+  button {
+    margin-top:20px;
+    padding:16px;
+    cursor: pointer;}
+  p{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  #result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold; }
+  .btnpos{
+ margin-left:auto;
+  margin-right:auto;}
+</style>
+<body>
+    <div class="titlestyle">
+    <img src="globe.png" alt="earth's globe" style="width:100px;height:100px;margin:20px;">
+    <h1 style="font-family:Roboto; text-align:left; color:white; margin-left:8px; font-size:58px;">Facts about every country in the world</h1>
+  </div>
+    <div class="bar">
+    <ul>
+      <li><a style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:24px;" href="index.html">Home</a></li>
+      <li><a style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:24px;" href="random.html">Random country</a></li>
+      <li><a style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:24px;" href="quiz.html">Take a quiz!</a></li>
+      <li><a style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:24px;" href="compare.html">Compare two countries</a></li>
+      <li><a style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size:24px;" href="Distance.html">Find the distance between two points</a></li>
+    </ul>
+  </div>
+  <p>Here, you will be able to find the distance between two given points in Earth's surface. You can use <a href="https://geohack.toolforge.org/">GeoHack</a> to find the coordinates of any city in the world.</p>
+  <label>Latitude of point 1
+  <input type="number" id="lat1" step="any" value="51.5074">
+</label>
+<label>Longitude of point 1
+  <input type="number" id="lon1" step="any" value="-0.1278">
+</label>
+<label>Latitude of point 2
+  <input type="number" id="lat2" step="any" value="48.8566">
+</label>
+<label>Longitude of point 2
+  <input type="number" id="lon2" step="any" value="2.3522">
+</label>
+<div class="btnpos">
+<button id="calc-btn" py-click="calculate">Calculate distance</button>
+</div>
+<div id="result" style="margin-left:10px; font-family:Arial, Helvetica, sans-serif; color:white;"></div>
+  <script type="py" src="distancecalc.py" config='{"packages": []}'></script>
+</body>
+</html>
