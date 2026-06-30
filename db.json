@@ -556,7 +556,7 @@
 ,
 {
 "id":"GQ",
-"name":"Equatorial Ginea",
+"name":"Equatorial Guinea",
 "continent":"Africa",
 "capital":"Malabo",
 "language": "Spanish",
@@ -757,7 +757,7 @@
 }
 ,
 {
-"id":"GB",
+"id":"GW",
 "name":"Guinea-Bissau",
 "continent":"Africa",
 "capital":"Bissau",
@@ -1805,7 +1805,7 @@
 }
 ,
 {
-"id":"UK",
+"id":"GB",
 "name":"United Kingdom of Great Britain and Northern Ireland",
 "continent":"Europe",
 "capital":"London",
