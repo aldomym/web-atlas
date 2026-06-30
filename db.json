@@ -47,6 +47,7 @@
 "name": "Angola",
 "continent":"Africa",
 "capital":"Luanda",
+"language":"Portuguese",
 "flag": "🇦🇴"
 }
 ,
@@ -56,6 +57,7 @@
 "continent":"North America",
 "capital":"The Valley",
 "language": "English",
+"currency":"East Caribbean Dollar",
 "flag": "🇦🇮"
 }
 ,
@@ -64,6 +66,8 @@
 "name": "Antigua and Barbuda",
 "continent":"North America",
 "capital":"St. John's",
+"currency":"East Caribbean Dollar",
+"language":"English",
 "flag": "🇦🇬"
 }
 ,
@@ -82,6 +86,7 @@
 "name": "Armenia",
 "continent":"Asia",
 "capital":"Yerevan",
+"language":"Armenian",
 "flag": "🇦🇲"
 }
 ,
@@ -126,6 +131,7 @@
 "name": "Bahamas",
 "continent":"North America",
 "capital":"Nassau",
+"language":"English",
 "flag": "🇧🇸"
 }
 ,
@@ -193,7 +199,7 @@
 "name": "Bermuda",
 "continent":"North America",
 "capital":"Hamilton",
-"currency": "US Dollar",
+"currency": "Bermudian Dollar",
 "language": "English",
 "flag": "🇧🇲"
 }
@@ -246,6 +252,7 @@
 "name": "British Virgin Islands",
 "continent":"North America",
 "capital":"Road Town",
+"language":"English",
 "flag": "🇻🇬"
 }
 ,
@@ -478,6 +485,7 @@
 "continent":"Europe",
 "capital":"Prague",
 "currency": "Czech Koruna",
+"language":"Czech",
 "flag": "🇨🇿"
 }
 ,
@@ -495,6 +503,16 @@
 "continent":"Africa",
 "capital":"Djibouti City",
 "flag": "🇩🇯"
+}
+,
+{
+"id":"DM",
+"name":"Dominica",
+"capital":"Rosseau",
+"continent":"North America",
+"currency":"East Caribbean Dollar",
+"language":"English",
+"flag":"🇩🇲"
 }
 ,
 {
@@ -852,6 +870,7 @@
 "continent":"North America",
 "capital":"Kingston",
 "language": "English",
+"currency":"Jamaican Dollar",
 "flag": "🇯🇲"
 }
 ,
@@ -1121,6 +1140,7 @@
 "continent":"Europe",
 "capital":"Chisinau",
 "language":"Romanian",
+"currency":"Moldovan Leu",
 "flag": "🇲🇩"
 }
 ,
@@ -1427,6 +1447,8 @@
 "name":"Saint Kitts and Nevis",
 "continent":"North America",
 "capital":"Basseterre",
+"currency":"East Caribbean Dollar",
+"language":"English",
 "flag": "🇰🇳"
 }
 ,
@@ -1435,6 +1457,8 @@
 "name":"Saint Lucia",
 "continent":"North America",
 "capital":"Castries",
+"currency":"East Caribbean Dollar",
+"language":"English",
 "flag": "🇱🇨"
 }
 ,
@@ -1453,6 +1477,8 @@
 "name":"Saint Vincent and the Grenadines",
 "continent":"North America",
 "capital":"Kingstown",
+"currency":"East Caribbean Dollar",
+"language":"English",
 "flag": "🇻🇨"
 }
 ,
@@ -1576,6 +1602,8 @@
 "name":"South Sudan",
 "continent":"Africa",
 "capital":"Juba",
+"language":"English",
+"currency":"South Sudanese Pound",
 "flag": "🇸🇸"
 }
 ,
