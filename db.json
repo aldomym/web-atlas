@@ -98,6 +98,7 @@
 "name": "Australia",
 "continent": "Oceania",
 "capital": "Canberra",
+"currency": "Australian Dollar",
 "language": "English",
 "flag": "🇦🇺"
 }
@@ -166,6 +167,7 @@
 "continent":"Europe",
 "capital":"Brussels",
 "currency": "Euro",
+"language":["Dutch", "French"],
 "flag": "🇧🇪"
 }
 ,
@@ -174,6 +176,7 @@
 "name": "Belize",
 "continent":"North America",
 "capital":"Belmopan",
+"language":"English",
 "flag": "🇧🇿"
 }
 ,
@@ -209,6 +212,7 @@
 "continent":"South America",
 "capital":"La Paz",
 "language": "Spanish",
+"currency":"Bolivian",
 "flag": "🇧🇴"
 }
 ,
@@ -259,6 +263,7 @@
 "continent":"Europe",
 "capital":"Sofia",
 "currency": "Euro",
+"language":"Bulgarian",
 "flag": "🇧🇬"
 }
 ,
@@ -345,6 +350,8 @@
 "name": "China",
 "continent":"Asia",
 "capital":"Beijing",
+"currency": "Yuan Reminbi",
+"language": "Mandarin",
 "flag": "🇨🇳"
 }
 ,
@@ -353,6 +360,7 @@
 "name": "Christmas Island",
 "continent":"Asia",
 "capital":"Flying Fish Cove",
+"currency": "Australian Dollar",
 "flag": "🇨🇽"
 }
 ,
@@ -361,6 +369,7 @@
 "name": "Cocos (Keeling) Island",
 "continent":"Asia",
 "capital":"West Island",
+"currency": "Australian Dollar",
 "flag": "🇨🇨"
 }
 ,
@@ -412,6 +421,7 @@
 "continent":"North America",
 "capital":"San José",
 "language": "Spanish",
+"currency":"Colón",
 "flag": "🇨🇷"
 }
 ,
@@ -429,6 +439,7 @@
 "continent":"Europe",
 "capital":"Zagreb",
 "currency": "Euro",
+"language":"Croatian",
 "flag": "🇭🇷"
 }
 ,
@@ -438,6 +449,7 @@
 "continent":"North America",
 "capital":"Havana",
 "language": "Spanish",
+"currency":"Cuban Peso",
 "flag": "🇨🇺"
 }
 ,
@@ -446,6 +458,7 @@
 "name":"Curacao",
 "continent":"North America",
 "capital":"Willemstad",
+"language": ["Papiamento", "Dutch"],
 "flag": "🇨🇼"
 }
 ,
@@ -490,6 +503,7 @@
 "continent":"North America",
 "capital":"Santo Domingo",
 "language": "Spanish",
+"currency":"Dominican Peso",
 "flag": "🇩🇴"
 }
 ,
@@ -508,6 +522,7 @@
 "name":"Egypt",
 "continent":"Africa",
 "capital":"Cairo",
+"language":"Arab",
 "flag": "🇪🇬"
 }
 ,
@@ -692,6 +707,7 @@
 "continent":"Oceania",
 "capital":"Agaña",
 "language": "English",
+"currency":"US Dollar",
 "flag": "🇬🇺"
 }
 ,
@@ -701,6 +717,7 @@
 "continent":"North America",
 "capital":"Guatemala City",
 "language": "Spanish",
+"currency":"Quetzal",
 "flag": "🇬🇹"
 }
 ,
@@ -734,6 +751,7 @@
 "name":"Guyana",
 "continent":"South America",
 "capital":"Georgetown",
+"language":"English",
 "flag": "🇬🇾"
 }
 ,
@@ -742,6 +760,7 @@
 "name":"Haiti",
 "continent":"North America",
 "capital":"Port-au-Prince",
+"language":["French","Haitian Creole"],
 "flag": "🇭🇹"
 }
 ,
@@ -784,6 +803,8 @@
 "name":"Iran",
 "continent":"Asia",
 "capital":"Tehran",
+"language":"Farsi",
+"currency":"Irani Rial",
 "flag": "🇮🇷"
 }
 ,
@@ -810,6 +831,8 @@
 "name":"Israel",
 "continent":"Asia",
 "capital":"Jerusalem",
+"language":"Hebrew",
+"currency":"Shekel",
 "flag": "🇮🇱"
 }
 ,
@@ -898,6 +921,7 @@
 "name":"Kuwait",
 "continent":"Asia",
 "capital":"Kuwait City",
+"language":"Arab",
 "flag": "🇰🇼"
 }
 ,
@@ -930,6 +954,7 @@
 "name":"Lebanon",
 "continent":"Asia",
 "capital":"Beirut",
+"language":"Arab",
 "flag": "🇱🇧"
 }
 ,
@@ -989,6 +1014,7 @@
 "name":"Macau",
 "continent":"Asia",
 "capital":"Macau",
+"language":"Portuguese",
 "flag": "🇲🇴"
 }
 ,
@@ -1013,6 +1039,7 @@
 "name":"Malaysia",
 "continent":"Asia",
 "capital":"Kuala Lumpur",
+"language":"Malay",
 "flag": "🇲🇾"
 }
 ,
@@ -1048,6 +1075,7 @@
 "continent":"Oceania",
 "capital":"Majuro",
 "currency": "US Dollar",
+"language":["English", "Marshallese"],
 "flag": "🇲🇭"
 }
 ,
@@ -1083,6 +1111,7 @@
 "continent":"Oceania",
 "capital":"Paalkir",
 "currency": "US Dollar",
+"language":"English",
 "flag": "🇫🇲"
 }
 ,
@@ -1091,6 +1120,7 @@
 "name":"Moldova",
 "continent":"Europe",
 "capital":"Chisinau",
+"language":"Romanian",
 "flag": "🇲🇩"
 }
 ,
@@ -1100,6 +1130,7 @@
 "continent":"Europe",
 "capital":"Monaco",
 "currency": "Euro",
+"language":"French",
 "flag": "🇲🇨"
 }
 ,
@@ -1124,6 +1155,7 @@
 "name":"Montserrat",
 "continent":"North America",
 "capital":"Plymouth",
+"language":"English",
 "flag": "🇲🇸"
 }
 ,
@@ -1164,6 +1196,8 @@
 "name":"Nauru",
 "continent":"Oceania",
 "capital":"Yaren",
+"language":"English",
+"currency":"Australian Dollar",
 "flag": "🇳🇷"
 }
 ,
@@ -1180,6 +1214,7 @@
 "name":"Netherlands",
 "continent":"Europe",
 "capital":"Amsterdam",
+"language":"Dutch",
 "currency": "Euro",
 "flag": "🇳🇱"
 }
@@ -1190,6 +1225,7 @@
 "continent":"Oceania",
 "capital":"Wellington",
 "language": "English",
+"currency": "New Zealand Dollar",
 "flag": "🇳🇿"
 }
 ,
@@ -1297,7 +1333,8 @@
 "name":"Paraguay",
 "continent":"South America",
 "capital":"Asunción",
-"language": "Spanish",
+"language": ["Spanish", "Guarani"],
+"currency": "Guarani",
 "flag": "🇵🇾"
 }
 ,
@@ -1307,6 +1344,7 @@
 "continent":"South America",
 "capital":"Lima",
 "language": "Spanish",
+"currency":"Sol",
 "flag": "🇵🇪"
 }
 ,
@@ -1315,6 +1353,8 @@
 "name":"Phillipines",
 "continent":"Asia",
 "capital":"Manila",
+"currency":"Philippine Peso",
+"language":"English",
 "flag": "🇵🇭"
 }
 ,
@@ -1332,6 +1372,7 @@
 "continent":"Europe",
 "capital":"Lisbon",
 "currency": "Euro",
+"language":"Portuguese",
 "flag": "🇵🇹"
 }
 ,
@@ -1349,6 +1390,7 @@
 "name":"Qatar",
 "continent":"Asia",
 "capital":"Doha",
+"language":"Arab",
 "flag": "🇶🇦"
 }
 ,
@@ -1357,6 +1399,8 @@
 "name":"Romania",
 "continent":"Europe",
 "capital":"Bucharest",
+"language": "Romanian",
+"currency": "Romanian Leu",
 "flag": "🇷🇴"
 }
 ,
@@ -1365,6 +1409,8 @@
 "name":"Russia",
 "continent":"Europe",
 "capital":"Moscow",
+"language": "Russian",
+"currency": "Russian Ruble",
 "flag": "🇷🇺"
 }
 ,
@@ -1625,6 +1671,8 @@
 "name":"Thailand",
 "continent":"Asia",
 "capital":"Bangkok",
+"language": "Thai",
+"currency": "Bhat",
 "flag": "🇹🇭"
 }
 ,
@@ -1691,6 +1739,7 @@
 "name":"Turks and Caicos",
 "continent":"North America",
 "capital":"Grand Turk",
+"language":"English",
 "flag": "🇹🇨"
 }
 ,
@@ -1762,6 +1811,7 @@
 "continent":"South America",
 "capital":"Montevideo",
 "language": "Spanish",
+"currency": "Uruguayan Peso",
 "flag": "🇺🇾"
 }
 ,
