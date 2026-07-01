@@ -936,6 +936,14 @@
 }
 ,
 {
+"id":"XK",
+"name":"Kosovo",
+"capital":"Pristina",
+"continent":"Europe",
+"flag":"🇽🇰"
+}
+,
+{
 "id":"KW",
 "name":"Kuwait",
 "continent":"Asia",
