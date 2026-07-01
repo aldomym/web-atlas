@@ -25,12 +25,38 @@ const map = L.map('map', { zoomControl: true }).setView([20, 0], 2);
     // The correct property name in this GeoJSON is "ISO3166-1-Alpha-2"
     const ISO_PROP = 'ISO3166-1-Alpha-2';
 
+    const ISO_OVERRIDES = {
+  "France": "FR",
+  "Kosovo": "XK",
+  "Christmas Island": "CX",
+  "Cocos (Keeling) Islands": "CC",
+  "Norway": "NO",
+  "Somaliland": "SO"
+};
+
+function isValidAlpha2(code) {
+  return typeof code === 'string' && /^[A-Z]{2}$/.test(code);
+}
+
     fetch('https://raw.githubusercontent.com/datasets/geo-countries/master/data/countries.geojson')
       .then(r => {
         if (!r.ok) throw new Error('GeoJSON fetch failed: ' + r.status);
         return r.json();
       })
       .then(geoJson => {
+        geoJson.features.forEach(feature => {
+      const props = feature.properties;
+      const current = props[ISO_PROP];
+      if (!isValidAlpha2(current)) {
+        const name = props.name || props.ADMIN || props.NAME;
+        const fixed = ISO_OVERRIDES[name];
+        if (fixed) {
+          props[ISO_PROP] = fixed;
+        } else {
+          console.warn('No ISO override found for:', name, 'raw value:', current);
+        }
+      }
+    });
         geojsonLayer = L.geoJSON(geoJson, {
           style: defaultStyle,
           onEachFeature: (feature, layer) => {
