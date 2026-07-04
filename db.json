@@ -11,6 +11,8 @@
 "name": "Albania",
 "continent": "Europe",
 "capital": "Tirana",
+"currency":"Lek",
+"language":"Albanian",
 "flag": "🇦🇱"
 }
 ,
@@ -156,6 +158,8 @@
 "name": "Barbados",
 "continent":"North America",
 "capital":"Bridgetown",
+"language":"English",
+"currency":"Barbadian dollar",
 "flag": "🇧🇧"
 }
 ,
@@ -164,6 +168,8 @@
 "name": "Belarus",
 "continent":"Europe",
 "capital":"Minsk",
+"currency":"Belarusian ruble",
+"language":["Belarusian","Russian"],
 "flag": "🇧🇾"
 }
 ,
@@ -227,6 +233,8 @@
 "name": "Bosnia and Herzegovina",
 "continent":"Europe",
 "capital":"Sarajevo",
+"currency":"Convertible mark",
+"language":"Serbo-Croatian",
 "flag": "🇧🇦"
 }
 ,
@@ -253,6 +261,7 @@
 "continent":"North America",
 "capital":"Road Town",
 "language":"English",
+"currency":"US Dollar",
 "flag": "🇻🇬"
 }
 ,
@@ -300,10 +309,29 @@
 }
 ,
 {
+"id":"FJ",
+"name":"Fiji",
+"continent":"Oceania",
+"capital":"Suva",
+"flag": "🇫🇯"
+}
+,
+{
+"id":"FI",
+"name":"Finland",
+"continent":"Europe",
+"capital":"Helsinki",
+"currency": "Euro",
+"language":"Finnish",
+"flag": "🇫🇮"
+}
+,
+{
 "id":"CM",
 "name": "Cameroon",
 "continent":"Africa",
 "capital":"Douala",
+"currency":"Central African CFA Franc",
 "flag": "🇨🇲"
 }
 ,
@@ -323,6 +351,7 @@
 "continent":"North America",
 "capital":"George Town",
 "language": "English",
+"currency":"Cayman Islands Dollar",
 "flag": "🇰🇾"
 }
 ,
@@ -331,6 +360,7 @@
 "name": "Central African Republic",
 "continent":"Africa",
 "capital":"Bangui",
+"currency":"Central African CFA Franc",
 "flag": "🇨🇫"
 }
 ,
@@ -339,6 +369,7 @@
 "name": "Chad",
 "continent":"Africa",
 "capital":"N'Djamena",
+"currency":"Central African CFA Franc",
 "flag": "🇹🇩"
 }
 ,
@@ -411,6 +442,7 @@
 "name": "The Congo",
 "continent":"Africa",
 "capital":"Brazzaville",
+"currency":"Central African CFA Franc",
 "flag": "🇨🇬"
 }
 ,
@@ -494,6 +526,8 @@
 "name":"Denmark",
 "continent":"Europe",
 "capital":"Copenhagen",
+"language":"Danish",
+"currency":"Danish krona",
 "flag": "🇩🇰"
 }
 ,
@@ -541,6 +575,7 @@
 "continent":"Africa",
 "capital":"Cairo",
 "language":"Arab",
+"currency":"Egyptian pound",
 "flag": "🇪🇬"
 }
 ,
@@ -560,6 +595,7 @@
 "continent":"Africa",
 "capital":"Malabo",
 "language": "Spanish",
+"currency":"Central African CFA Franc",
 "flag": "🇬🇶"
 }
 ,
@@ -577,6 +613,7 @@
 "continent":"Europe",
 "capital":"Tallin",
 "currency": "Euro",
+"language":"Estonian",
 "flag": "🇪🇪"
 }
 ,
@@ -601,6 +638,8 @@
 "name":"Faroe Islands",
 "continent":"Europe",
 "capital":"Torshavn",
+"language":"Faroese",
+"currency":"Danish krona",
 "flag": "🇫🇴"
 }
 ,
@@ -618,6 +657,7 @@
 "continent":"Europe",
 "capital":"Helsinki",
 "currency": "Euro",
+"language":["Finnish", "Swedish"],
 "flag": "🇫🇮"
 }
 ,
@@ -689,6 +729,7 @@
 "continent":"Europe",
 "capital":"Gibraltar",
 "language": "English",
+"currency":"Pound Sterling",
 "flag": "🇬🇮"
 }
 ,
@@ -797,6 +838,7 @@
 "continent":"Europe",
 "capital":"Reykjavik",
 "language": "Icelandic",
+"currency":"Icelandic króna",
 "flag": "🇮🇸"
 }
 ,
@@ -805,6 +847,7 @@
 "name":"India",
 "continent":"Asia",
 "capital":"New Delhi",
+"language":["English", "Hindi"],
 "flag": "🇮🇳"
 }
 ,
@@ -940,6 +983,8 @@
 "name":"Kosovo",
 "capital":"Pristina",
 "continent":"Europe",
+"language":["Albanian","Serbian"],
+"currency":"Euro",
 "flag":"🇽🇰"
 }
 ,
@@ -973,6 +1018,8 @@
 "name":"Latvia",
 "continent":"Europe",
 "capital":"Riga",
+"language":"Latvian",
+"currency":"Euro",
 "flag": "🇱🇻"
 }
 ,
@@ -1024,6 +1071,8 @@
 "name":"Lithuania",
 "continent":"Europe",
 "capital":"Vlinius",
+"language":"Lithuanian",
+"currency":"Euro",
 "flag": "🇱🇹"
 }
 ,
@@ -1033,6 +1082,7 @@
 "continent":"Europe",
 "capital":"Luxembourg City",
 "currency": "Euro",
+"language":["Luxembourgish", "French","German"],
 "flag": "🇱🇺"
 }
 ,
@@ -1175,6 +1225,8 @@
 "name":"Montenegro",
 "continent":"Europe",
 "capital":"Podgorica",
+"currency":"Euro",
+"language":"Montenegrin",
 "flag": "🇲🇪"
 }
 ,
@@ -1234,6 +1286,8 @@
 "name":"Nepal",
 "continent":"Asia",
 "capital":"Kathmandu",
+"currency":"Nepalese rupee",
+"language":"Nepalese",
 "flag": "🇳🇵"
 }
 ,
@@ -1287,6 +1341,8 @@
 "name":"North Macedonia",
 "continent":"Europe",
 "capital":"Skopje",
+"currency":"Macedonian Denar",
+"language":"Macedonian",
 "flag": "🇲🇰"
 }
 ,
@@ -1295,6 +1351,8 @@
 "name":"Northern Mariana Islands",
 "continent":"Oceania",
 "capital":"Saipan",
+"language":"English",
+"currency":"US Dollar",
 "flag": "🇲🇵"
 }
 ,
@@ -1303,6 +1361,8 @@
 "name":"Norway",
 "continent":"Europe",
 "capital":"Oslo",
+"language":"Norwegian",
+"currency":"Norwegian krone",
 "flag": "🇳🇴"
 }
 ,
@@ -1345,6 +1405,7 @@
 "continent":"North America",
 "capital":"Panama City",
 "language": "Spanish",
+"currency":"US Dollar",
 "flag": "🇵🇦"
 }
 ,
@@ -1391,6 +1452,8 @@
 "name":"Poland",
 "continent":"Europe",
 "capital":"Warsaw",
+"language":"Polish",
+"currency":"Polish zloty",
 "flag": "🇵🇱"
 }
 ,
@@ -1410,6 +1473,7 @@
 "continent":"North America",
 "capital":"San Juan",
 "language": "Spanish",
+"currency":"US Dollar",
 "flag": "🇵🇷"
 }
 ,
@@ -1537,6 +1601,8 @@
 "name":"Serbia",
 "continent":"Europe",
 "capital":"Belgrade",
+"language":"Serbo-Croatian",
+"currency":"Serbian dinar",
 "flag": "🇷🇸"
 }
 ,
@@ -1561,6 +1627,8 @@
 "name":"Singapore",
 "continent":"Asia",
 "capital":"Singapore",
+"currency":"Singapore Dollar",
+"language":["English", "Malay", "Chinese", "Tamil"],
 "flag": "🇸🇬"
 }
 ,
@@ -1570,6 +1638,7 @@
 "continent":"Europe",
 "capital":"Bratislava",
 "currency": "Euro",
+"language":"Slovakian",
 "flag": "🇸🇰"
 }
 ,
@@ -1578,6 +1647,8 @@
 "name":"Slovenia",
 "continent":"Europe",
 "capital":"Ljubliana",
+"currency":"Euro",
+"language":"Slovene",
 "flag": "🇸🇮"
 }
 ,
@@ -1639,6 +1710,7 @@
 "continent":"Africa",
 "capital":"Khartoum",
 "language": "Arab",
+"currency":"Sudenese Pound",
 "flag": "🇸🇩"
 }
 ,
@@ -1656,6 +1728,7 @@
 "continent":"Europe",
 "capital":"Stockholm",
 "language": "Swedish",
+"currency":"Swedish krona",
 "flag": "🇸🇪"
 }
 ,
@@ -1675,6 +1748,7 @@
 "continent":"Asia",
 "capital":"Damascus",
 "language": "Arab",
+"currency":"Syrian Pound",
 "flag": "🇸🇾"
 }
 ,
@@ -1718,6 +1792,7 @@
 "continent":"Asia",
 "capital":"Dili",
 "currency": "US Dollar",
+"language":"Portuguese",
 "flag": "🇹🇱"
 }
 ,
@@ -1742,6 +1817,7 @@
 "name":"Trinidad and Tobago",
 "continent":"North America",
 "capital":"Port of Spain",
+"language":"English",
 "flag": "🇹🇹"
 }
 ,
@@ -1767,6 +1843,8 @@
 "name":"Turkmenistan",
 "continent":"Asia",
 "capital":"Asghabat",
+"language":"Turkmen",
+"currency":"Turkmen Manat",
 "flag": "🇹🇲"
 }
 ,
@@ -1838,6 +1916,7 @@
 "continent":"North America",
 "capital":"Charlotte Amalie",
 "currency": "US Dollar",
+"language":"English",
 "flag": "🇻🇮"
 }
 ,
