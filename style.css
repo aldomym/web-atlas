@@ -10,11 +10,25 @@ body {
 }
 
 select {
-  width: 200px;
-  padding: 8px;
-  font-size: 18px;
-  margin: 0 auto 1rem;
-  display: block;
+  width: 240px;
+  padding: 10px 14px;
+  font-size: 16px;
+  color: white;
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  appearance: none;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+select:hover, select:focus {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+select option {
+  color: black; /* options render outside your glass styling in most browsers */
 }
 
 .titlestyle {
